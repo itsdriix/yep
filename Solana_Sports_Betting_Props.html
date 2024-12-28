@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solana Sports Betting Props</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #282c34;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+        .props {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        .prop-card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        .prop-card h3 {
+            margin: 0.5rem 0;
+            font-size: 1.25rem;
+        }
+        .prop-card p {
+            margin: 0.5rem 0 1rem;
+            color: #555;
+        }
+        .prop-card button {
+            background: #282c34;
+            color: #fff;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        .prop-card button:hover {
+            background: #444;
+        }
+        footer {
+            background-color: #282c34;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Solana Sports Betting Props</h1>
+</header>
+
+<div class="container">
+    <div class="props">
+        <div class="prop-card">
+            <h3>Player Points</h3>
+            <p>Will Player A score over 25 points?</p>
+            <button>Bet Now</button>
+        </div>
+        <div class="prop-card">
+            <h3>Match Outcome</h3>
+            <p>Will Team A beat Team B?</p>
+            <button>Bet Now</button>
+        </div>
+        <div class="prop-card">
+            <h3>Total Goals</h3>
+            <p>Will there be more than 3.5 goals?</p>
+            <button>Bet Now</button>
+        </div>
+        <div class="prop-card">
+            <h3>First Scorer</h3>
+            <p>Will Player B score the first goal?</p>
+            <button>Bet Now</button>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>Powered by Solana Blockchain | Sports Betting Props</p>
+</footer>
+
+</body>
+</html>
